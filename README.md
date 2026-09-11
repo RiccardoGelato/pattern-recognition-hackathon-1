@@ -18,11 +18,19 @@ Missing values are intentionally retained. Decide how to handle them in your pre
 
 ## Submit your predictions
 
-**Competition link: [TBA]**
+### Hackathon 1 — Penguins
+
+**Competition:** [pattern-recognition-2026-penguins](https://www.kaggle.com/competitions/pattern-recognition-2026-penguins)
 
 - **Format:** a CSV file with a single `species` column, one row per test sample, in the same order as `test.csv` (see `sample_submission.csv`).
 - **Leaderboard metric:** macro F1.
 - **Deadline:** TBA.
+
+### Hackathon 2 — Iris
+
+**Competition:** [pattern-recognition-2026-iris](https://www.kaggle.com/competitions/pattern-recognition-2026-iris)
+
+The data and submission format for this task will be published in this repository before the competition opens.
 
 ## Repository layout
 
