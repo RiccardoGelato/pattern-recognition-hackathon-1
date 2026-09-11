@@ -6,6 +6,16 @@ Teaching repository for the [FYS-3012 Pattern Recognition](https://github.com/Wi
 
 Predict penguin `species` from morphological measurements using the Palmer Penguins dataset. The data is deliberately imperfect — missing values, correlated features, unequal class sizes — so your model choices have to be justified, not just benchmarked.
 
+## Competition data
+
+The prepared competition data is already included in `data/processed/`:
+
+- `train.csv` contains features and `species` labels.
+- `test.csv` contains features only.
+- `sample_submission.csv` provides the required submission format.
+
+Missing values are intentionally retained. Decide how to handle them in your preprocessing pipeline. Do not change the row order of `test.csv` when creating predictions.
+
 ## Submit your predictions
 
 **Competition link: [TBA]**
@@ -18,8 +28,8 @@ Predict penguin `species` from morphological measurements using the Palmer Pengu
 
 ```text
 notebooks/   # scaffolded exercises: EDA, Bayes/densities, linear, SVM/NN, final method
-src/         # data helpers, metrics, and the data-generation script
-data/        # generated competition data (not committed)
+src/         # student-safe data helpers and evaluation metrics
+data/processed/  # committed training data, test data, and submission template
 ```
 
 ## Setup
